@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Configuração local / segredos
+.env
+.env.*
+!.env.example
+
+# Certificados digitais
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+
+# Dados de clientes e arquivos baixados
+ARQUIVOS BAIXADOS/
+teste_arquivos/
+*.zip
+*.xml
+*.xlsx
+!planilha_modelo.xlsx
+~$*
+relatorio_de_importacao.txt
+*.log
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
